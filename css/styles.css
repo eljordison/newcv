@@ -1,0 +1,145 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: verdana, sans-serif;
+  color: #40514E;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-size: 5.625rem;
+  font-family: 'Indie Flower', cursive;
+  color: #f34573;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  color: #f34573;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Raleway', sans-serif;
+  color: #f34573;
+}
+
+p {
+  line-height: 2;
+  padding: 20px;
+}
+
+a {
+  color: #f34573;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #eaf6f6;
+}
+
+hr {
+  border: dotted black 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+  clear: both;
+}
+
+.skill-row {
+  margin: 100px auto 100px auto;
+  width: 50%;
+  text-align: left;
+}
+
+.qa-img {
+  float: left;
+  width: 25%;
+  margin-right: 30px;
+}
+
+.bar-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+  border-radius: 50%;
+}
+
+.profile-image {
+  border-radius: 50%;
+  width: 15%;
+}
+
+.butn {
+  background: #f34573;
+  background-image: -webkit-linear-gradient(top, #f34573, #ff4057);
+  background-image: -moz-linear-gradient(top, #f34573, #ff4057);
+  background-image: -ms-linear-gradient(top, #f34573, #ff4057);
+  background-image: -o-linear-gradient(top, #f34573, #ff4057);
+  background-image: linear-gradient(to bottom, #f34573, #ff4057);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.butn:hover {
+  background: #ff4057;
+  background-image: -webkit-linear-gradient(top, #ff4057, #f30067);
+  background-image: -moz-linear-gradient(top, #ff4057, #f30067);
+  background-image: -ms-linear-gradient(top, #ff4057, #f30067);
+  background-image: -o-linear-gradient(top, #ff4057, #f30067);
+  background-image: linear-gradient(to bottom, #ff4057, #f30067);
+  text-decoration: none;
+}
+
+.top-container {
+  background-color: #d7f7f5;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.bottom-container {
+  background-color: #75cac3;
+  color: #EAF6F6;
+  padding: 50px 0 20px;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.copyright {
+  color: #eaf6f6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 650px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 650px;
+  bottom: 300px;
+}
